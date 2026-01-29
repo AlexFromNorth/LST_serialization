@@ -1,0 +1,13 @@
+{
+  "name": "set-serialization",
+  "version": "1.0.0",
+  "description": "Compact serialization for integer sets (1-300)",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "run": "node src/run-tests.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
